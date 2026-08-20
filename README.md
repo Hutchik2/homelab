@@ -1,8 +1,13 @@
 # Homelab
 
-Self-hosted infrastructure running on enterprise hardware in a house. Built to learn by
-doing — network segmentation, service orchestration, and sysadmin work through real problems
-instead of coursework.
+Self-hosted infrastructure running on enterprise hardware in a house — a Dell PowerEdge R430
+running Proxmox, with OPNsense handling routing and VLAN segmentation.
+
+## Why I built it
+
+I built this homelab so I can practice what I learn in class in a real environment that I
+control. I use it to run and test new services, and I keep parts of it as a sandbox for
+picking up something new.
 
 ## Docs
 
@@ -19,10 +24,6 @@ instead of coursework.
 | Firewall / Router | OPNsense (VM) |
 | Network | Netgear switch, Eero upstream |
 
-## Short version
+---
 
-OPNsense splits the lab into a LAN for services and an isolated VLAN for the game server.
-Tailscale handles remote access, and the one public service (Nextcloud) goes out through a
-Cloudflare Tunnel — so there are no inbound ports open on the house connection.
-
-Host addresses in these docs are masked.
+_Host addresses in these docs are masked._
