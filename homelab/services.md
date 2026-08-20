@@ -25,7 +25,7 @@ are LXC containers rather than VMs because containers are way lighter on RAM and
 one box to go around.
 
 **OPNsense** — the firewall and router, running as a VM since it needs its own network stack.
-Details in the [network overview](../network/overview.md).
+Details in the [network overview](network.md).
 
 ## Media
 
@@ -73,3 +73,7 @@ tunnel — same idea as Nextcloud, outbound only, no port forward.
 - [ ] Off-site backups, actually tested
 - [ ] Reverse proxy + internal TLS so I stop typing IP:port
 - [ ] Infrastructure-as-code for spinning up containers
+
+---
+
+→ [Hardware overview](hardware.md) · [Network overview](network.md)
