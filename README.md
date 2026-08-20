@@ -6,9 +6,9 @@ instead of coursework.
 
 ## Docs
 
-- [Hardware overview](homelab/hardware/overview.md) — the boxes, photos, and how they're cabled
-- [Network overview](homelab/network/overview.md) — subnets, VLANs, OPNsense setup
-- [Services overview](homelab/services/overview.md) — what's running and why
+- [Hardware overview](homelab/hardware.md) — the boxes, photos, and how they're cabled
+- [Network overview](homelab/network.md) — subnets, VLANs, OPNsense setup
+- [Services overview](homelab/services.md) — what's running and why
 
 ## Hardware at a glance
 
