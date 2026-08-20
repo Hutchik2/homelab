@@ -4,7 +4,13 @@ Self-hosted infrastructure running on enterprise hardware in a house. Built to l
 doing — network segmentation, service orchestration, and sysadmin work through real problems
 instead of coursework.
 
-## Hardware
+## Docs
+
+- [Hardware overview](homelab/hardware/overview.md) — the boxes, photos, and how they're cabled
+- [Network overview](homelab/network/overview.md) — subnets, VLANs, OPNsense setup
+- [Services overview](homelab/services/overview.md) — what's running and why
+
+## Hardware at a glance
 
 | Component | Details |
 |---|---|
@@ -12,11 +18,6 @@ instead of coursework.
 | Storage | IBM 1818-D1A JBOD |
 | Firewall / Router | OPNsense (VM) |
 | Network | Netgear switch, Eero upstream |
-
-## Docs
-
-- [Network overview](homelab/network/overview.md) — subnets, VLANs, OPNsense setup
-- [Services overview](homelab/services/overview.md) — what's running and why
 
 ## Short version
 
