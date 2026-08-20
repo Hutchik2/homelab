@@ -5,8 +5,8 @@ looks like.
 
 ## Photos
 
-Drop images into `homelab/hardware/images/` and swap each placeholder line below for the
-image tag underneath it.
+Drop images into `homelab/images/` and swap each placeholder line below for the image tag
+underneath it.
 
 **Rack, front**
 
@@ -80,7 +80,7 @@ flowchart LR
 
 The switch carries a single trunk to the R430. OPNsense runs as a VM on that host and does
 the actual splitting into LAN and VLAN 60, so the VLAN separation is logical rather than
-separate physical runs — see the [network overview](../network/overview.md).
+separate physical runs — see the [network overview](network.md).
 
 ## Still to fill in
 
@@ -91,4 +91,4 @@ separate physical runs — see the [network overview](../network/overview.md).
 
 ---
 
-→ [Network overview](../network/overview.md) · [Services overview](../services/overview.md)
+→ [Network overview](network.md) · [Services overview](services.md)
