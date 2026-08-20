@@ -48,4 +48,4 @@ Host addresses are masked in these docs on purpose.
 
 ---
 
-→ [Services overview](../services/overview.md)
+→ [Hardware overview](hardware.md) · [Services overview](services.md)
