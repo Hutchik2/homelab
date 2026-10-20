@@ -9,9 +9,12 @@ Self-hosted infrastructure and security lab: Proxmox on a Dell PowerEdge R430, O
 | Server | Dell PowerEdge R430 (1U), 128 GB RAM, 4x onboard 1 GbE NICs, iDRAC |
 | Rack | Dell PowerEdge 2410 (24U, square-hole) |
 | Rails | Dell A8 static ReadyRails |
-| Console | Dell 15FP rack console (KMM tray) |
+| Console | Dell PowerEdge 15FP rack console: 1U slide-out tray with a 15" monitor, keyboard, and touchpad for direct local access to the server |
 | Lab switch | Netgear GS108E (dedicated to the lab network) |
-| Other | Raspberry Pi, horizontal cable management |
+| PoE | Ubiquiti PoE injector |
+| Wireless | Ubiquiti UniFi access point |
+| Power | CyberPower CPS1215RMS rack PDU |
+| Other | Raspberry Pi, rack shelf, horizontal cable management |
 
 ## Photos
 
@@ -72,6 +75,7 @@ GAMES and LAB can reach OPNsense for DHCP and DNS only.
 
 The game server runs on [Pelican](https://pelican.dev), a panel that runs each server in its own Docker container.
 
+- Current server: All the Mods 10 (NeoForge, Java 21, 10-12 GB RAM)
 - Public access through a [playit.gg](https://playit.gg) outbound tunnel, so no port forwarding is needed
-- Whitelist only
-
+- Whitelist enabled
+- A cron script ([`scripts/mc-idle.sh`](scripts/mc-idle.sh)) stops the server after 10 minutes with no players online
