@@ -18,9 +18,13 @@ Self-hosted infrastructure and security lab: Proxmox on a Dell PowerEdge R430, O
 
 ## Photos
 
-| Closed | Front open | Side open |
-|---|---|---|
-| <img src="images/rack-closed.jpg" width="250"> | <img src="images/rack-front-open.jpg" width="250"> | <img src="images/rack-side-open.jpg" width="250"> |
+| Closed | Front open |
+|---|---|
+| <img src="images/rack-closed.jpg" width="350"> | <img src="images/rack-front-open.jpg" width="350"> |
+
+| Side open | Console extended |
+|---|---|
+| <img src="images/rack-side-open.jpg" width="350"> | <img src="images/rack-console.jpg" width="350"> |
 
 ## Architecture
 
