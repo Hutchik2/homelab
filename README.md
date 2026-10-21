@@ -2,6 +2,10 @@
 
 Self-hosted infrastructure and security lab: Proxmox on a Dell PowerEdge R430, OPNsense, segmented VLANs, zero open ports.
 
+## Why I Built This
+
+I wanted an environment I own and control, where I can apply what I learn in the classroom to a real-world setup. It also lets me host personal projects without paying for a third-party subscription.
+
 ## Hardware
 
 | Component | Details |
@@ -51,8 +55,6 @@ flowchart TB
 
 The home network has no route into the lab. Everything in the lab sits behind OPNsense, and each VLAN is filtered separately.
 
-The game server and attack lab can reach the internet, but not each other, the home network, the Proxmox host, or the OPNsense management interface.
-
 ## Firewall Policy
 
 Default deny between all segments.
@@ -79,7 +81,6 @@ GAMES and LAB can reach OPNsense for DHCP and DNS only.
 
 The game server runs on [Pelican](https://pelican.dev), a panel that runs each server in its own Docker container.
 
-- Current server: All the Mods 10 (NeoForge, Java 21, 10-12 GB RAM)
-- Public access through a [playit.gg](https://playit.gg) outbound tunnel, so no port forwarding is needed
-- Whitelist enabled
-- A cron script ([`scripts/mc-idle.sh`](scripts/mc-idle.sh)) stops the server after 10 minutes with no players online
+- Current server: Minecraft
+- Public access through a [playit.gg](https://playit.gg) outbound tunnel
+- Whitelist only
